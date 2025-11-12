@@ -1,11 +1,16 @@
-<script setup></script>
+<script setup>
+import TaskList from './components/TaskList.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main>
+    <TaskList />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+</style>
